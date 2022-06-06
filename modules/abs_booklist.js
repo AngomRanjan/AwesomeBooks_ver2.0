@@ -1,5 +1,5 @@
 // || ==== Compiling Book Card For Rendering In HTML Page (uses article element)=== ||
-import { arrBooks, saveLocal } from './asb_DBMS.js' ;
+import { arrBooks, saveLocal } from './asb_DBMS.js';
 
 const bookList = arrBooks.books;
 
@@ -34,7 +34,7 @@ const appendBooklist = (book) => {
   document.getElementById(`id-${book.id}`).addEventListener('click', () => {
     removeBook(`id-${book.id}`);
   });
-}
+};
 
 const displayList = () => {
   const content = document.getElementById('content');
@@ -44,9 +44,9 @@ const displayList = () => {
   article.className = 'booklist';
   article.id = 'booklist';
   content.append(heading, article);
-  for (var i = 0; i < bookList.length; i += 1) {
-    appendBooklist(bookList[i]);  
-  }  
+  for (let i = 0; i < bookList.length; i += 1) {
+    appendBooklist(bookList[i]);
+  }
 };
 
-export { displayList };
+export default displayList;

@@ -20,11 +20,9 @@ class ArrBooks {
   }
 }
 
-const Book = (id, title, author) => {
-  return {id, title, author};
-};
+const Book = (id, title, author) => ({ id, title, author });
 
-export { ArrBooks, Book};
+export { ArrBooks, Book };
 
 /*
 const book = Book(1, 'My New Book', 'Newcomer');

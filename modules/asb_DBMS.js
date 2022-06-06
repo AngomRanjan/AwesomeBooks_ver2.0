@@ -1,10 +1,11 @@
 /* || ========== Maintaining the Booklist Database ============= || */
 
-import {ArrBooks, Book} from './asb_classes.js' ;
+import { ArrBooks, Book } from './asb_classes.js';
+
 const arrBooks = new ArrBooks();
 
 const saveLocal = () => {
-localStorage.setItem('arrBooksLocal', JSON.stringify(arrBooks.books));
+  localStorage.setItem('arrBooksLocal', JSON.stringify(arrBooks.books));
 };
 
 const localBooks = JSON.parse(localStorage.getItem('arrBooksLocal'));
@@ -40,8 +41,7 @@ if (!localBooks) {
 }
 
 const addNew = (title, author) => {
-  //arrBooks.addBook(Book(arrBooks.getNewID(),title,author));
-  console.log('Hi i add');
-}
+  arrBooks.addBook(Book(arrBooks.getNewID(), title, author));
+};
 
 export { arrBooks, addNew, saveLocal };

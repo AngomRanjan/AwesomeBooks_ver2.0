@@ -4,6 +4,49 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+header,
+footer {
+  position: fixed;
+  margin: 0 auto;
+  padding: 10px 20px;
+  width: 100vw;
+  border: 1px solid red;
+}
+
+header {
+  top: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer { bottom: 0; }
+
+#time {
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#add {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 0 20px;
+}
+
 .section {
   display: flex;
   flex-direction: column;
@@ -11,7 +54,7 @@
   align-items: center;
   gap: 20px;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 60px);
 }
 
 button {
