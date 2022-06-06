@@ -1,8 +1,6 @@
 // || ==== Compiling Book Card For Rendering In HTML Page (uses article element)=== ||
 import { arrBooks, saveLocal } from './asb_DBMS.js';
 
-const bookList = arrBooks.books;
-
 const compileBookArticle = (book) => {
   const articleBook = document.createElement('article');
   articleBook.className = 'books';
@@ -43,6 +41,7 @@ const displayList = () => {
   const article = document.createElement('article');
   article.className = 'booklist';
   article.id = 'booklist';
+  const bookList = arrBooks.books;
   content.append(heading, article);
   for (let i = 0; i < bookList.length; i += 1) {
     appendBooklist(bookList[i]);

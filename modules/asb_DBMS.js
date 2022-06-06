@@ -1,6 +1,6 @@
 /* || ========== Maintaining the Booklist Database ============= || */
 
-import { ArrBooks, Book } from './asb_classes.js';
+import { ArrBooks } from './asb_classes.js';
 
 const arrBooks = new ArrBooks();
 
@@ -40,8 +40,4 @@ if (!localBooks) {
   ];
 }
 
-const addNew = (title, author) => {
-  arrBooks.addBook(Book(arrBooks.getNewID(), title, author));
-};
-
-export { arrBooks, addNew, saveLocal };
+export { arrBooks, saveLocal };
