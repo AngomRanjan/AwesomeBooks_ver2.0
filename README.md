@@ -2,7 +2,7 @@
 
 # AwesomeBooks_ver2.0
 
-> A Modular version of Awesome Books.
+> A Modular version of Awesome Books. In this version of Awesome book, js codes are organised in modules.
 
 ## Built With
 
