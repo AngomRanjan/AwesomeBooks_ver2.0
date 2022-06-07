@@ -1,7 +1,8 @@
-// || ==== Compiling Book Card For Rendering In HTML Page (uses article element)=== ||
+// || ==== Book List UI=== ||
 import { arrBooks, saveLocal } from './asb_DBMS.js';
 
 const compileBookArticle = (book) => {
+  // Compiling Book Card For Rendering In HTML Page (uses article element)
   const articleBook = document.createElement('article');
   articleBook.className = 'books';
   articleBook.id = `book-${book.id}`;

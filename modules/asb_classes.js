@@ -1,3 +1,4 @@
+// || ==== CMain Data Structure === ||
 class ArrBooks {
   constructor() {
     this.books = [];
@@ -23,11 +24,3 @@ class ArrBooks {
 const Book = (id, title, author) => ({ id, title, author });
 
 export { ArrBooks, Book };
-
-/*
-const book = Book(1, 'My New Book', 'Newcomer');
-const arrBooks = new ArrBooks();
-console.table(book);
-arrBooks.addBook(book);
-console.table(arrBooks.books);
-*/

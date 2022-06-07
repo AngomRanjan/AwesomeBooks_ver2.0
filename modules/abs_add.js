@@ -1,11 +1,6 @@
-// || ==== Compiling Book Card For Rendering In HTML Page (uses article element)=== ||
+// || ==== Add Book Page=== ||
 import { arrBooks, saveLocal } from './asb_DBMS.js';
 import { Book } from './asb_classes.js';
-
-// function addNew () {
-//   // Handling Form Add Button To Add Book, Append Html Booklist and Update local
-
-// }
 
 const add = () => {
   const form = document.createElement('form');
