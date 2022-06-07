@@ -19,8 +19,6 @@ const add = () => {
   textTitle.placeholder = 'Book Title';
   textTitle.required = true;
 
-  const br = document.createElement('br');
-
   const textAuthor = document.createElement('input');
   textAuthor.type = 'text';
   textAuthor.id = 'author';
@@ -34,7 +32,7 @@ const add = () => {
   button.className = 'add';
   button.textContent = 'Add';
 
-  form.append(textTitle, br, textAuthor, br, button);
+  form.append(textTitle, textAuthor, button);
 
   const content = document.getElementById('content');
   const heading = document.createElement('h1');
