@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
+# AwesomeBooks_ver2.0
 
-> A dynamic site maintaining a collection of books. User can add or remove a book to or from the list. On any change to the list, it is updated and save in local storage.
+> A Modular version of Awesome Books. In this version of Awesome book, js codes are organised in modules.
 
 ## Built With
 
@@ -11,9 +11,9 @@
 -Javascript
 
 ## Live Demo
-[source code](https://github.com/AngomRanjan/AwesomeBooks.git)
+[source code](https://github.com/AngomRanjan/AwesomeBooks_ver2.0.git)
 
-[Live Demo Link]( https://angomranjan.github.io/AwesomeBooks/)
+[Live Demo Link]( https://angomranjan.github.io/AwesomeBooks_ver2.0/)
 
 ## Authors
 
@@ -23,19 +23,15 @@
 - Twitter: [@RanjanAngom](https://twitter.com/RanjanAngom)
 - LinkedIn: [angom-chittaranjan](https://linkedin.com/in/angom-chittaranjan)
 
-👤 Muhammad Shaheer
-
-- GitHub: [@ShaheerCH](https://github.com/ShaheerCH)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AngomRanjan/AwesomeBooks/issues).
+Feel free to check the [issues page](https://github.com/AngomRanjan/AwesomeBooks_ver2.0/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a [⭐️](https://github.com/AngomRanjan/AwesomeBooks_ver2.0/stargazers) if you like this project!
 
 ## Acknowledgments
 - Microverse Team
